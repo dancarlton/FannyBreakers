@@ -19,6 +19,12 @@ function windowLoaded() {
   }
 }
 
+const swiper = new Swiper('.swiper', {
+  autoplay: {
+    delay: 500
+  }
+});
+
 // Add to Cart Animation
 
 const cart = document.querySelector('.header_cart');
