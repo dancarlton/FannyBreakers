@@ -37,7 +37,16 @@ body {
 .header_cart {
   pointer-events: all;
 }
+.cart-icon {
+  width: 80px;
+  height: auto;  
+}
+
 /* ----------------- */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 .product {
   flex: 1 1 auto;
   display: flex;
@@ -145,10 +154,12 @@ body {
 
 .wrapper {
   opacity: 0;
+  position: absolute;
 }
 .loaded .wrapper {
   opacity: 1;
   transition: opacity 0.8 ease 0s;
+  position: absolute;
 }
 
 .header {
