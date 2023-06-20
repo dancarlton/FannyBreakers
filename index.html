@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Space+Grotesk:regular,500,700" rel="stylesheet&display=swap" />
+    <link rel="stylesheet" href="style.css">
+    <title>FannyJax</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <a href="" class="header_logo">FaniJaks</a>
+        <div class="shopping-cart">
+          <a href="" class="header_cart"><span>Cart (<span>0</span>)</span></a>
+          <!-- <a href="" class="header_cart"><img src="assets/cart-1.png" alt="Cart"></a> -->
+        </div>
+      </header>
+      <main class="product">
+        <div class="product_slider swiper">
+          <div class="product_wrapper swiper-wrapper">
+            <div class="product_slide swiper-slide">
+              <div class="product_body">
+                <div class="product_content">
+                  <div 
+                  data-swiper-parallax-opacity="0.5"
+                  data-swiper-parallax="50%"
+                  data-swiper-parallax-scale="0.3"
+                  class="product_image">
+                    <img src="img/image-01.png" class="product_picture" alt="Image">
+                  </div>
+                </div>
+                <h2 
+                data-swiper-parallax-opacity="0.5"
+                data-swiper-parallax="50%"
+                data-swiper-parallax-scale="0.4"               
+                class="product_title">
+                  FannyJaks <br> GENESIS EDITION
+                </h2>
+              </div>
+              <div 
+              data-swiper-parallax-opacity="0"
+              data-swiper-parallax-scale="0.3"
+              class="product_details">
+                <div class="product_price">$99</div>
+                <button class="product_buy" type="button">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
